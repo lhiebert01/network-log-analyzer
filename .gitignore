@@ -1,0 +1,41 @@
+# Environment variables - CRITICAL to protect API keys
+.env
+*.env
+.streamlit/secrets.toml
+
+# Python virtual environment
+venv/
+.venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Logs
+logs/
+*.log
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Streamlit specific
+.streamlit/
+
+# Local development settings
+local_settings.py
